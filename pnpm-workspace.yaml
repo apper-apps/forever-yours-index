@@ -1,0 +1,11 @@
+packages:
+  - "."
+
+# Enable strict peer dependency checking
+strictPeerDependencies: true
+
+# Package manager configuration
+packageManager: pnpm@8.0.0
+
+# Workspace settings
+save-workspace-protocol: true
