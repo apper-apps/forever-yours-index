@@ -1,0 +1,38 @@
+[
+  {
+    "Id": 1,
+    "type": "emoji",
+    "content": "🌹",
+    "message": "A digital rose for the most beautiful person in my life"
+  },
+  {
+    "Id": 2,
+    "type": "text",
+    "content": "A promise to always be there for you, through every joy and every challenge",
+    "message": "My commitment to you"
+  },
+  {
+    "Id": 3,
+    "type": "emoji",
+    "content": "🎵",
+    "message": "Our song will always remind me of you and all our beautiful moments together"
+  },
+  {
+    "Id": 4,
+    "type": "text",
+    "content": "1000 more adventures together, each one better than the last",
+    "message": "My promise for our future"
+  },
+  {
+    "Id": 5,
+    "type": "emoji",
+    "content": "🌟",
+    "message": "You are the star that guides me through every day"
+  },
+  {
+    "Id": 6,
+    "type": "text",
+    "content": "A lifetime of morning kisses and goodnight hugs",
+    "message": "My daily promise to you"
+  }
+]

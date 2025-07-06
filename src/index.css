@@ -1,0 +1,197 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom cursor styles */
+html {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='%23FF69B4'%3E%3Cpath d='M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z'/%3E%3C/svg%3E"), auto;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFF0F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #FF69B4, #FF1493);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #FF1493, #DC143C);
+}
+
+/* Toast overrides */
+.Toastify__toast-container {
+  z-index: 9999;
+}
+
+.Toastify__toast {
+  background: linear-gradient(135deg, #FF69B4, #FF1493);
+  color: white;
+  border-radius: 12px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  padding: 12px 16px;
+  box-shadow: 0 8px 32px rgba(255, 105, 180, 0.3);
+}
+
+.Toastify__progress-bar {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Background effects */
+.romantic-bg {
+  background: linear-gradient(135deg, #FFF0F5 0%, #FFFFFF 50%, #FFF0F5 100%);
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* Glow effects */
+.glow-text {
+  text-shadow: 0 0 20px rgba(255, 105, 180, 0.5);
+}
+
+.glow-pink {
+  box-shadow: 0 0 20px rgba(255, 105, 180, 0.3);
+}
+
+/* Heart shapes */
+.heart-shape {
+  position: relative;
+  width: 100px;
+  height: 90px;
+  transform: rotate(-45deg);
+}
+
+.heart-shape:before,
+.heart-shape:after {
+  content: '';
+  width: 52px;
+  height: 80px;
+  position: absolute;
+  left: 50px;
+  top: 0;
+  background: #FF69B4;
+  border-radius: 50px 50px 0 0;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+
+.heart-shape:after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}
+
+/* Envelope animation */
+.envelope-animation {
+  perspective: 1000px;
+}
+
+.envelope-fold {
+  transform-style: preserve-3d;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.envelope-fold.open {
+  transform: rotateX(-180deg);
+}
+
+/* Gift box animation */
+.gift-box {
+  perspective: 1000px;
+}
+
+.gift-lid {
+  transform-style: preserve-3d;
+  transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gift-lid.open {
+  transform: rotateX(-120deg) translateZ(20px);
+}
+
+/* Photo hover effects */
+.photo-hover {
+  transition: all 0.3s ease;
+}
+
+.photo-hover:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 40px rgba(255, 105, 180, 0.3);
+}
+
+/* Timeline animations */
+.timeline-item {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: all 0.6s ease;
+}
+
+.timeline-item.animate {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Card flip animation */
+.flip-card {
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 16px;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+/* Floating hearts */
+.floating-heart {
+  position: fixed;
+  color: #FF69B4;
+  opacity: 0.6;
+  animation: float 6s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Loading animations */
+.loading-shimmer {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}

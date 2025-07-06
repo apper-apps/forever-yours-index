@@ -1,0 +1,58 @@
+[
+  {
+    "Id": 1,
+    "date": "March 10, 2023",
+    "title": "First Hello",
+    "description": "The day we first met and talked for hours. I knew there was something special about you from that very first conversation.",
+    "icon": "MessageCircle"
+  },
+  {
+    "Id": 2,
+    "date": "March 15, 2023",
+    "title": "First Date",
+    "description": "Our first official date at that little café downtown. You wore that beautiful blue dress and my heart skipped a beat.",
+    "icon": "Coffee"
+  },
+  {
+    "Id": 3,
+    "date": "April 1, 2023",
+    "title": "First Kiss",
+    "description": "Under the stars in the park, our first kiss. Time seemed to stop and everything felt perfect in that moment.",
+    "icon": "Star"
+  },
+  {
+    "Id": 4,
+    "date": "May 20, 2023",
+    "title": "Made It Official",
+    "description": "The day you said yes to being my girlfriend. I was so nervous but so happy when you smiled and said yes.",
+    "icon": "Heart"
+  },
+  {
+    "Id": 5,
+    "date": "June 14, 2023",
+    "title": "First 'I Love You'",
+    "description": "Three little words that changed everything. I meant every syllable and I still do, more than ever.",
+    "icon": "MessageSquare"
+  },
+  {
+    "Id": 6,
+    "date": "July 30, 2023",
+    "title": "First Trip Together",
+    "description": "Our weekend getaway to the mountains. We talked, laughed, and fell even more in love with each other.",
+    "icon": "MapPin"
+  },
+  {
+    "Id": 7,
+    "date": "September 5, 2023",
+    "title": "First Fight & Makeup",
+    "description": "Our first real argument and how we worked through it together. It made our bond even stronger.",
+    "icon": "Shield"
+  },
+  {
+    "Id": 8,
+    "date": "November 25, 2023",
+    "title": "Meeting the Family",
+    "description": "The day I met your family and they welcomed me with open arms. It felt like home.",
+    "icon": "Home"
+  }
+]
