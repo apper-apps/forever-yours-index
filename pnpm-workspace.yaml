@@ -1,4 +1,3 @@
----
 packages:
   - "."
 
@@ -7,7 +6,3 @@ packageManager: "pnpm@8.0.0"
 
 # Workspace settings
 save-workspace-protocol: true
-
-# Peer dependency resolution
-resolution-mode: "highest"
-auto-install-peers: true
