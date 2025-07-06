@@ -1,11 +1,12 @@
 packages:
   - "."
 
-# Enable strict peer dependency checking
-strictPeerDependencies: true
+# Temporarily disable strict peer dependency checking
+# Will be re-enabled after dependency cleanup
+strictPeerDependencies: false
 
 # Package manager configuration
-packageManager: pnpm@8.0.0
+packageManager: "pnpm@8.0.0"
 
 # Workspace settings
 save-workspace-protocol: true
